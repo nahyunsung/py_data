@@ -1,7 +1,7 @@
 import csv
 
 # 데이터 불러오기
-f = open('202107_age.csv')
+f = open('../202107_age.csv')
 data = csv.reader(f)
 
 # 필드명 추출

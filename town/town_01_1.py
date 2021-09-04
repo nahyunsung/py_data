@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-f = open('202107_age.csv')
+f = open('../202107_age.csv')
 data = csv.reader(f)
 
 header = next(data)
